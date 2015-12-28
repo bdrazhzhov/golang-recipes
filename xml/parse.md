@@ -1,6 +1,7 @@
 # XML parsing
 
-`package jshint
+```go
+package jshint
 
 import (
 	"encoding/xml"
@@ -40,4 +41,5 @@ func NewErrors(errorXml []byte) Checkstyle {
 	}
 
 	return report
-}`
+}
+```
